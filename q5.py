@@ -11,6 +11,6 @@ for number in range(1, 101):
     if number % 3 == 0:
         print(f'{number}\tFizz')
     elif number % 5 == 0:
-        print('Buzz')
+        print(f'{number}\tBuzz')
     else:
         print(number)
