@@ -8,7 +8,9 @@ For numbers which are multiples of both three and five print "FizzBuzz"."""
 
 
 for number in range(1, 101):
-    if number % 3 == 0:
+    if number % 3 == 0 and number % 5 == 0:
+        print(f'{number}\tFizzBuzz')
+    elif number % 3 == 0:
         print(f'{number}\tFizz')
     elif number % 5 == 0:
         print(f'{number}\tBuzz')
